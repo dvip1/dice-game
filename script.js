@@ -1,4 +1,4 @@
-//make a function to generate random numbers between 1 and 6
+
 function rollDice() {
     return Math.floor(Math.random() * 6) + 1;
 }
@@ -28,8 +28,3 @@ function dicegame(){
         document.querySelector("h1").innerHTML = "Draw";
     }
     }
-//make a function to get random value out of an array
-function randomValueFromArray(array) {
-    return array[Math.floor(Math.random() * array.length)];
-}
-var array=['one','two','three','four','five','six'];
