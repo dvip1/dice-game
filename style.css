@@ -1,0 +1,52 @@
+* {
+    background-color: #F0EBCE;
+}
+
+.fa-solid {
+    color: #4E6C50;
+    font-size: 14rem;
+}
+
+.discription p{
+    text-align: center;
+    color: #395144;
+    padding:1rem 5rem 0;
+    margin: 0;
+}
+.rickroll{
+    padding-top:0;
+    text-align: center;
+    color: #AA8B56;
+    margin: 0;
+}
+.heading {
+    margin: 0;
+    font-family: 'IndieFlower',Lobster;
+    font-size: 5rem;
+    text-align: center;
+    color: #395144;
+}
+
+.my-container 
+{   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+@media screen and (max-width: 650px) {
+   .fa-solid{
+    font-size: 10rem;
+   }
+  }
+.my-container strong,i{
+    padding: 2rem;
+}
+.footer{
+    text-align: center;
+}
+.footer button{ 
+    border-radius: 25px;
+    background-color: #4E6C50;
+    padding: 1rem 2rem;
+}
